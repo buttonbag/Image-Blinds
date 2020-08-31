@@ -1,0 +1,39 @@
+:root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 30rem;
+  height: 20rem;
+  margin: auto;
+  background-color: #BDBDBD;
+  position: relative;
+  overflow: hidden;
+}
+
+.imageContainer {
+  position: absolute;
+  width: 480px;
+  height: 100%;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
+.image {
+  background: url(https://images.unsplash.com/photo-1597591262125-aca8f2fda9fb?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ) no-repeat;
+  background-size: 880px;
+  height: 100%;
+  background-position: 0% center;
+}
+
+.text {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
